@@ -2,7 +2,7 @@
  * Author:  Fernando
  * Created: Aug 10, 2016
  */
-
+l
 ALTER TABLE legacy.predio
   ADD CONSTRAINT fk_predio_ciudadano FOREIGN KEY (ciu_replegal) REFERENCES legacy.ciudadano (ciu_cedula)
    ON UPDATE CASCADE ON DELETE NO ACTION;

@@ -19,7 +19,7 @@ public class Parametros {
     /**
      * Conexion Postgresql destino:
      */
-    private String pgConnectionUrl = "jdbc:postgresql://190.57.138.220/censo_montecristi";
+    private String pgConnectionUrl = "jdbc:postgresql://192.168.1.72/sanvicente_censo";
     private String pgUser = "sisapp";
     private String pgPass = "sis98";
     
@@ -27,11 +27,11 @@ public class Parametros {
      * Conexión de origen:
      */
     private String origenDriver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-    private String origenConnectionUrl = "jdbc:sqlserver://127.0.0.1:1433;databaseName=dbame;";
+    private String origenConnectionUrl = "jdbc:sqlserver://127.0.0.1:1433;databaseName=sanvicente;";
     private String origenUser = "sa";
     private String origenPass = "sis98";
     
-    private String origenDbName = "dbame";
+    private String origenDbName = "sanvicente";
     private String origenSchema = "dbo";
     
     

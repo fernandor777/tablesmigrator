@@ -306,7 +306,7 @@ public class TableMigrator {
             else inited = true;
             // add key column:
             sb1.append("\"");
-            sb1.append(cadaPk.getColName());
+            sb1.append( parametros.getLowercaseColumns() ? cadaPk.getColName().toLowerCase() : cadaPk.getColName());
             sb1.append("\"");
         }
         sb1.append(");");
